@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Outlet Boulevard</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: black;
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 20px;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .productos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .producto {
+      background: #111;
+      margin: 15px;
+      padding: 15px;
+      border-radius: 10px;
+      width: 200px;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    button {
+      background: gold;
+      border: none;
+      padding: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>OUTLET BOULEVARD</header>
+
+<h2>🔥 Ofertas Exclusivas</h2>
+
+<div class="productos">
+
+  <div class="producto">
+    <img src="https://via.placeholder.com/200">
+    <h3>Camisa Nike</h3>
+    <p>₡12,000</p>
+    <button onclick="comprar()">Comprar</button>
+  </div>
+
+  <div class="producto">
+    <img src="https://via.placeholder.com/200">
+    <h3>Tenis Adidas</h3>
+    <p>₡25,000</p>
+    <button onclick="comprar()">Comprar</button>
+  </div>
+
+</div>
+
+<script>
+function comprar() {
+  window.open("https://wa.me/506XXXXXXXX", "_blank");
+}
+</script>
+
+</body>
+</html>
